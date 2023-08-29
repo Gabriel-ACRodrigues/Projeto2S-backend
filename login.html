@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+    <div class="container">
+        <header> Login</header>
+        <form action="#" id="form">
+            <div class="form first">
+                <div class="details personal">
+                    <div class="fields">
+                        <div class="input-field">
+                            <label for="usuario">Nome de Usuário</label>
+                            <input type="text" id="usuario" placeholder="Usuário">
+                            <div class="error"></div>
+                        </div>
+                        
+                        <div class="input-field">
+                            <label for="senha">Senha</label>
+                            <input type="password" id="senha" placeholder="Senha">
+                            <div class="error"></div>
+                        </div>
+                        <button class="cadastrar" type="submit">
+                            <span class="botaoCadastrar">Login</span>
+                        </button>
+
+                        <button class="cadastrar" type="button" onclick="telaCadastro()">
+                            <span class="botaoCadastrar">Cadastre-se</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+<script defer src="login.js"></script>
+</html>
